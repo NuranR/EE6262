@@ -12,7 +12,7 @@ pipeline {
             steps {
                 // Build Docker image
                 script {
-                    docker.build('ode-app')
+                    docker.build('node-app')
                 }
             }
         }
